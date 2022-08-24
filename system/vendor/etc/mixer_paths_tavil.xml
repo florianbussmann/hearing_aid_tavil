@@ -2450,6 +2450,11 @@
         <ctl name="VoiceMMode1_Tx Mixer SLIM_0_TX_MMode1" value="1" />
     </path>
 
+    <path name="voicemmode1-call hearing-aid">
+        <ctl name="AFE_PCM_RX_Voice Mixer VoiceMMode1" value="1"/>
+        <ctl name="VoiceMMode1_Tx Mixer SLIM_0_TX_MMode1" value="1"/>
+    </path>
+
     <path name="voicemmode1-call headphones">
         <ctl name="SLIM_6_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer SLIM_0_TX_MMode1" value="1" />
@@ -2502,6 +2507,11 @@
     <path name="voicemmode2-call">
         <ctl name="SLIM_0_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer SLIM_0_TX_MMode2" value="1" />
+    </path>
+
+    <path name="voicemmode2-call hearing-aid">
+        <ctl name="AFE_PCM_RX_Voice Mixer VoiceMMode2" value="1"/>
+        <ctl name="VoiceMMode2_Tx Mixer SLIM_0_TX_MMode2" value="1"/>
     </path>
 
     <path name="voicemmode2-call headphones">
@@ -2891,6 +2901,10 @@
 
     <path name="handset-mic">
         <path name="dmic3" />
+    </path>
+    
+    <path name="hearing-aid-mic">
+        <path name="handset-mic"/>
     </path>
 
     <path name="handset-mic-qrd">
