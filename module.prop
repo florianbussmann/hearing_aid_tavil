@@ -1,0 +1,6 @@
+id=bussmann-hearing-aid-fix
+name=Hearing Aid Fix
+version=1.0.0
+versionCode=100000
+author=Florian Bussmann
+description=Fixes functionality for ASHA hearing aids in calls on tavil
